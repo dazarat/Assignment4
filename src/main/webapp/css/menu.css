@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color:#d0e4fe;
+    justify-content: center;
+    margin-top: 0;
+}
+h1 {
+    color:black;
+    text-align:center;
+}
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', serif;
+    transition: .5s linear;
+    font-size:20px;
+}
+nav {
+    display: block;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+.myMenu li {
+    width: 150px;
+}
+.myMenu ul {
+    display: -webkit-flex;
+    display: flex;
+    padding: 0;
+    background: #b8d7ff;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.myMenu a {
+    padding: 1em;
+    display: block;
+    border: 1px solid #ADC0CE;
+    background-color: #a1cfff;
+    color: #0a0a0a;
+}
+.myMenu a:hover {
+    background: #698aff
+}
